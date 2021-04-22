@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="player">Player</string>
+    <string name="computer">Computer</string>
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="sciss">Scissors</string>
+    <string name="intro">Press any button to start.</string>
 </resources>
