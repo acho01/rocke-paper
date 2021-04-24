@@ -88,10 +88,11 @@
         app:layout_constraintStart_toEndOf="@+id/paper_btn" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/comp_img"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/human_img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -99,14 +100,27 @@
         app:srcCompat="@drawable/paper" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/human_img"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/rock_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/comp_img"
         app:srcCompat="@drawable/rock" />
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro"
+        app:layout_constraintBottom_toTopOf="@+id/human_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comp_img"
+        tools:layout_editor_absoluteY="765dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
