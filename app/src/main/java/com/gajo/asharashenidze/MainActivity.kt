@@ -1,12 +1,10 @@
-package com.gajo.rps
+package com.gajo.asharashenidze
 
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
-import org.w3c.dom.Text
 
 class MainActivity : AppCompatActivity() {
 

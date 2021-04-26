@@ -1,4 +1,4 @@
-package com.gajo.rps
+package com.gajo.asharashenidze
 
 enum class TURN {
     ROCK, PAPER, SCISSOR

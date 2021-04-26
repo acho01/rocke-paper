@@ -1,7 +1,4 @@
-package com.gajo.rps
-
-import android.widget.TextView
-import androidx.annotation.DrawableRes
+package com.gajo.asharashenidze
 
 class AppUtils {
     companion object Factory {

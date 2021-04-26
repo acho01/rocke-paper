@@ -1,4 +1,4 @@
-package com.gajo.rps
+package com.gajo.asharashenidze
 
 class Player (var_name: String, var _score: Int) {
 

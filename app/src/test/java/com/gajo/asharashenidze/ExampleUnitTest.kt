@@ -1,4 +1,4 @@
-package com.gajo.rps
+package com.gajo.asharashenidze
 
 import org.junit.Test
 
